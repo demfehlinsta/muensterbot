@@ -19,6 +19,13 @@ def getWeather():
            "message": f"Momentan ca. {weather['temp']}°C\nTemperaturen zwischen {weather['temp_min']}°C-{weather['temp_max']}°C\nWindgeschwindigkeit: {data['list'][0]['wind']['speed']}km/h\nLuftfeuchtigkeit: {weather['humidity']}%"}
    return dict
 
+def parseNum(s):
+    ret = ""
+    for x in s:
+        if(x.isdigit()):
+            ret += x
+    return ret
+
 #Freie Plätze der Parkhäuser in der Reihenfolge von https://www.wbi-muenster.de/parken-in-muenster/uebersicht.php
 def getParkhaus():
    ret = []
