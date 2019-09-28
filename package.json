@@ -1,0 +1,17 @@
+{
+  "name": "muensterbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "telegraf": "^3.32.0",
+    "telegraf-inline-menu": "^3.6.2",
+    "telegraf-router": "^1.0.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
